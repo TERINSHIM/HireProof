@@ -1,0 +1,27 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# User uploads
+backend/media/
+
+# Frontend
+node_modules/
+dist/
+
+# Editor files
+.vscode/
+
+# Local databases
+*.sqlite3
+
+# Uploaded resumes
+backend/candidate_resumes/
+backend/media/
